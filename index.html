@@ -1,11 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Employement Registration Form</title>
+    <link rel="stylesheet" href="external_registration.css">
 </head>
 <body>
-    "just pretend that we're okay, okay?"
+    <h2>New Employement Registration form</h2>
+    <form name="Employee Form" action="#">
+        Full Name*: <br><input type="text" name="fullname"><br>
+        Date of Birth*:<br> <input type="date" name="dob"><br>
+        Gender: <br>
+        <select name="gender">
+            <option value="">--Select--</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br>
+        Email*: <br><input type="email" name="email"><br>
+        Contact Number*: <br><input type="tel" name="phone"><br>
+        Address*: <br>
+        <textarea></textarea><br>
+        Job Title*: <br><input type="text" name="job"><br>
+        Department*:<br> <input type="text" name="department"><br>
+        Employment Type*: <br>
+        <select name="type">
+            <option value="">--Select--</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="Contract">Contract</option>
+        </select><br>
+        Emergency Contact Name*: <br><input type="text" name="emergency_name"><br>
+        Emergency Contact Number*: <br><input type="tel" name="emergency_number"><br>
+        <input type="submit" value="Register Employee">
+    </form>
 </body>
 </html>
